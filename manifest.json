@@ -1,0 +1,51 @@
+{
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.6.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ],
+    "format_version": 2,
+    "header": {
+        "name": "§g§lBase",
+        "description": "§7Base",
+        "uuid": "14e467b4-e3aa-49d3-8352-f8439fd7b2ee",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "854b16b0-cf13-4711-af75-1e3014ccbaac",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "language": "javascript",
+            "description": "script",
+            "type": "script",
+            "uuid": "7c7e693f-99f4-41a9-95e0-1f57b37e1e12",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/index.js"
+        }
+    ]
+}
